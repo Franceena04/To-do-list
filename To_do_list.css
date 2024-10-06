@@ -1,0 +1,94 @@
+body
+{
+    background-color: rgb(125, 110, 130);
+}
+button
+{
+    background-color: rgb(217, 208, 225);
+    width: 140px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 80px;
+    transition: height 1s, width 1s;
+    
+
+}
+input
+{
+    margin-right: 20px;
+    width:450px;
+    height:50px;
+    border-radius:15px ;
+}
+button:hover
+{
+    background-color: rgb(99, 50, 142);
+    width:160px;
+    height: 63px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.container
+{
+    margin-left: 480px;
+    margin-top:200px
+    
+}
+h1
+{
+    margin-left: 170px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#task_display
+{
+    margin-left: 500px;
+    margin-top: 20px;
+    background-color: rgba(71, 36, 101, 0.441);
+    width: 420px;
+    font-size:20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+li
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+.checkbox_class
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.delete_class
+{
+    width:20px;
+    height: 20px;
+    margin-left: 0px;
+    background-color: red;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.delete_class:hover {
+    background-color: darkred;
+}
